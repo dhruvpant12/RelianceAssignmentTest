@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7279406370450844125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7279406370450844127}
+  - component: {fileID: 7279406370450844126}
+  m_Layer: 0
+  m_Name: Origin
+  m_TagString: Coin
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7279406370450844127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7279406370450844125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7279406370450844126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7279406370450844125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd93d7313ad5b546bc1d2d27dbac422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gb: {fileID: 2235277192869828818, guid: 91a85295344380d4881b8cb6d24c94d1, type: 3}
+  parentobj: {fileID: 6705059194587703596, guid: 132f9614ec32ca34f97f4a48b352fea3,
+    type: 3}
+  Coins: {fileID: 988638705608848092, guid: 32956edb205040b45a602b4d50322762, type: 3}
+  layermask:
+    serializedVersion: 2
+    m_Bits: 512
+  design:
+  - {fileID: 8980793441520647659, guid: 29998f31c4cede347bb4af60c8b04c1c, type: 3}
+  - {fileID: 3347828966201021263, guid: 26fb9de143a23da46bc6e6068e3ec25d, type: 3}
+  - {fileID: 6532826761627187157, guid: c5190eea109724042b02cfa7f2723ccc, type: 3}
+  - {fileID: 1296545233974392995, guid: 0e697ee574f9fee42a7684c9587959bb, type: 3}
+  - {fileID: 362878064963272496, guid: bf9b6dfa17a760d4ba4ba147dcae945a, type: 3}
+  - {fileID: 161679518178299660, guid: fcdbcecaa42adce4fb68da906cfb9afb, type: 3}
+  - {fileID: 879804100453084944, guid: e9008e1748c8b30429ea0480f906bb92, type: 3}
